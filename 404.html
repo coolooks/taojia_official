@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit"><!--html打开强制为极速模式-->
+<link rel="shortcut icon" href="favicon.ico">
+<!--<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">-->
+<title>404-页面消失了</title>
+<style>
+*{
+	padding:0;
+	margin:0;
+	border:0;}
+body{ font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;}
+i{ font-style:normal;}
+HTML,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;}
+.wrap{
+	width:990px;
+	margin:0 auto;
+	position:relative;}
+.wrap > div{
+	position:absolute;
+	top:150px;}
+.left > p{
+	font-weight:bold;
+	font-size:270px;
+	line-height:300px;
+	color:#ffbd00;
+	animation:5s shadow linear alternate infinite;
+	-ms-animation:5s shadow linear alternate infinite;
+	-webkit-animation:5s shadow linear alternate infinite;}
+@keyframes shadow{
+	0%{ text-shadow:0 0 30px #ffae00;}
+	20%{ text-shadow:0 0 30px #ccff00;}
+	40%{ text-shadow:0 0 30px #00ff6c;}
+	60%{ text-shadow:0 0 30px #0078ff;}
+	80%{ text-shadow:0 0 30px #de00ff;}
+	100%{ text-shadow:0 0 30px #ff0000;}
+}
+@-ms-keyframes shadow{
+	0%{ text-shadow:0 0 30px #ffae00;}
+	20%{ text-shadow:0 0 30px #ccff00;}
+	40%{ text-shadow:0 0 30px #00ff6c;}
+	60%{ text-shadow:0 0 30px #0078ff;}
+	80%{ text-shadow:0 0 30px #de00ff;}
+	100%{ text-shadow:0 0 30px #ff0000;}
+}
+@-webkit-keyframes shadow{
+	0%{ text-shadow:0 0 30px #ffae00;}
+	20%{ text-shadow:0 0 30px #ccff00;}
+	40%{ text-shadow:0 0 30px #00ff6c;}
+	60%{ text-shadow:0 0 30px #0078ff;}
+	80%{ text-shadow:0 0 30px #de00ff;}
+	100%{ text-shadow:0 0 30px #ff0000;}
+}
+.left > i{
+	margin-left:200px;
+	font-size:30px;}
+.left > i > strong{
+    color:#f00;
+    font-size:38px;}
+.right{
+	right:0;
+	width:352px;
+	height:540px;
+	background:url(images/404_pic.jpg) no-repeat;}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="left">
+        <p>404</p>
+        <i>页面消失了……&nbsp;&nbsp;<strong id="time">5</strong>&nbsp;秒后回到首页</i>
+    </div>
+    <div class="right"></div>
+</div>
+<script>
+window.onload = function () { 
+    setTimeout(changeTime, 1000); 
+}
+
+function changeTime() { 
+    var time = document.getElementById("time").innerHTML; 
+    time = parseInt(time); 
+    time--; 
+    if (time <= 0) { 
+        window.location = "http://www.17taojia.com"; 
+    } else { 
+        document.getElementById("time").innerHTML= time; 
+        setTimeout(changeTime, 1000); 
+    } 
+} 
+</script>
+</body>
+</html>

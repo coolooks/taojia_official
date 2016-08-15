@@ -1,0 +1,50 @@
+.f_more,.z_more{
+	width:90px;
+	height:90px;
+	margin:0 auto;
+	margin-top:60px;
+	position:relative;}
+.f_more > span,.z_more > span{
+	display:block;
+	width:90px;
+	height:90px;
+	text-align:center;
+	line-height:90px;
+	font-weight:bold;
+	position:absolute;
+	z-index:9;}
+.f_more > span > a,.z_more > span > a{
+	display:block;
+	font-size:18px;
+	color:#2f2f2d;}
+.f_more .f_bg_1,.z_more .z_bg_1{
+	z-index:8;
+	background:url(../images/more_bg1.png) no-repeat;
+	animation:1s more_Anime1 ease-in-out alternate infinite;
+	-ms-animation:1s more_Anime1 ease-in-out alternate infinite;
+	-webkit-animation:1s more_Anime1 ease-in-out alternate infinite;}
+.f_more .f_bg_2,.z_more .z_bg_2{
+	z-index:7;
+	background:url(../images/more_bg2.png) no-repeat;
+	animation:1s more_Anime2 ease-in-out alternate infinite;
+	-ms-animation:1s more_Anime2 ease-in-out alternate infinite;
+	-webkit-animation:1s more_Anime2 ease-in-out alternate infinite;}
+@keyframes more_Anime1{
+	to{ transform:rotate(90deg);}
+}
+@-ms-keyframes more_Anime1{
+	to{ transform:rotate(90deg);}
+}
+@-webkit-keyframes more_Anime1{
+	to{ transform:rotate(90deg);}
+}
+
+@keyframes more_Anime2{
+	to{ transform:rotate(-130deg);}
+}
+@-ms-keyframes more_Anime2{
+	to{ transform:rotate(-130deg);}
+}
+@-webkit-keyframes more_Anime2{
+	to{ transform:rotate(-130deg);}
+}

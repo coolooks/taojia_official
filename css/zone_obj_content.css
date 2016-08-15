@@ -1,0 +1,310 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;
+	padding:0;
+	border:0;}
+body{
+	font:14px "Microsoft YaHei",Arial,Helvetica,sans-serif;
+	background:#fff;
+	-webkit-text-size-adjust:100%;}
+a{
+	text-decoration:none;}
+a:hover{
+	text-decoration:none;}
+em{
+	font-style:normal;}
+ul,li{
+	list-style:none;}
+img{
+	border:0;
+	vertical-align:middle;}
+table{
+	border-collapse:collapse;
+	border-spacing:0;}
+p{
+	word-wrap:break-word;}
+a:focus,select:focus,input:focus{
+	outline:none;}
+div,span,p,ul,li,input{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;}
+.fixclear:before,.fixclear:after{
+	content:'';
+    clear:both;
+    height:0;
+    display:table;
+    visibility:hidden;}
+/*-----CSS reset end--------*/
+
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;}
+
+.content{
+	width:100%;
+	height:100%;
+	background:#000;}
+.content > div{
+	float:left;
+	position:fixed;
+	top:0;}
+
+.con_l{
+	left:0;
+	z-index:9999;
+	width:400px;
+	background:#fff;
+	overflow-y:auto;}
+.owner{
+	padding:30px 20px;}
+.owner > span:hover{ cursor:pointer;}
+.owner > span{
+	display:block;}
+.owner > span > img{
+    max-width:360px;}
+.owner .owner_info{
+	color:#2f2f2d;
+	line-height:24px;}
+.owner .owner_info .address em{
+    display:inline-block;
+    width:315px;
+    vertical-align:top;}
+
+/*幻灯片和缩略图*/
+.con_r{
+	right:0;
+	height:100%;
+	background:#2f2f2d;}
+
+.flexslider .flex-direction-nav li a{
+	background-color:#000 !important;
+	opacity:1;
+	filter:alpha(opacity=100);}
+#carousel{
+	height:130px;
+	margin:0 auto;
+    background:url(../images/base_bg.png) repeat;}
+#carousel > p {
+    font-weight:bold;}
+#carousel .slides li{
+    
+	height:130px;
+	overflow:visible;
+	background-position:center;
+	background-repeat:no-repeat;}
+#carousel .slides li:first-child{
+    margin-left:15px;}
+#carousel .slides li a{
+    display:table-cell;
+    vertical-align:middle;
+    height:130px;}
+#carousel .slides li.flex-active-slide img{ outline:5px #595959 solid;}
+#carousel .slides li:hover{ cursor:pointer;}
+#carousel .slides img{
+	width:100%;}
+#carousel .flex-direction-nav{ top:35%;}
+#carousel .flex-direction-nav a{
+	width:18px;
+	height:38px;
+	background:url(../images/arrow.png) no-repeat;}
+#carousel a.flex-prev{ background-position:-104px 3px;}
+#carousel a.flex-next{ background-position:-125px 3px;}
+
+
+#slider{
+	background:none;
+	height:100%;}
+#slider ul.slides{
+	height:100%;}
+#slider ul.slides li{
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;}
+#slider ul.flex-direction-nav{
+	top:40%;}
+
+.con_r_info{
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:8;
+	width:100%;
+	background:url(../images/base_bg.png) repeat;
+	padding:15px 25px;
+	color:#fff;}
+.con_r_info > p{ margin-bottom:10px;}
+.con_r_info .i_title{
+	font-size:24px;
+	font-weight:bold;}
+.con_r_info .i_text{
+	line-height:20px;}
+.con_r_info .lab > span{
+	padding:3px 7px;
+	color:#ffe537;
+	border:1px #ffe537 solid;
+	border-radius:5px;
+	margin-right:10px;}
+.con_r_info .close{
+	position:absolute;
+	top:20px;
+	right:30px;
+	width:27px;
+	height:16px;
+	background:url(../images/arrow.png) no-repeat;
+	background-position:-27px -90px;}
+.con_r_info .close:hover{ cursor:pointer;}
+
+/*-------小区信息------*/
+.zone_info{
+	width:360px;
+	margin:0 auto;
+    padding:30px 0;
+    border-top:1px #dfdfdf solid;
+    border-bottom:1px #dfdfdf solid;}
+.zone_info .z_pic{
+    width:295px;}
+ .zone_info .z_pic img{
+     width:100%;
+     max-width:295px;}
+.zone_info .z_info{
+	color:#444;}
+.z_info #z_name,.more > p{
+	font-size:18px;
+	font-weight:bold;
+    line-height:36px;}
+.z_info > span{
+	display:block;
+	line-height:22px;}
+.z_info > span > em{ vertical-align:top;}
+/*.z_info .z_text{
+	display:inline-block;
+	width:285px;
+	text-align:justify;}*/
+	
+/*--------预约-----------*/
+.c_bom{
+	width:330px;
+    height:300px;
+	padding:20px;
+	margin:0 auto;
+	overflow:hidden;}
+.c_bom > p,.c_bom > em{
+	display:block;
+	text-align:center;
+	color:#2f2f2d;}
+.c_bom > p{
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:5px;}
+#form{
+	margin-top:20px;}
+#form span{
+	display:block;
+	padding:10px;
+	background:#fff;
+	border-radius:5px;
+	border:1px solid #ccc;
+	margin:10px 0;}
+#form span input{
+	width:100%;
+	font-family:inherit;
+	color:#595959;}	
+#form > form > a{
+	display:block;
+	color:#2f2f2d;
+	width:288px;
+	line-height:36px;
+	text-align:center;
+	background:#ffe537;
+	border-radius:5px;
+	border:1px #2f2f2d solid;}
+#form > p{
+	text-align:center;
+	margin-top:10px;}
+#form > p > strong{
+	display:inline-block;
+	padding:1px 3px;
+	background:#2f2f2d;
+	color:#ffe537;
+	margin:0 3px;
+	border-radius:5px;}
+
+/*---热门商品---*/
+.more{
+    width:360px;
+    margin:0 auto;
+    padding-bottom:80px;}
+.more .good{
+    position:relative;
+    float:left;
+    margin:0 10px 10px 0;
+    width:170px;}
+.more .good > a{ color:#fff;}
+.more .good > a > span{ display:block;}
+.more .good .g_pic{
+    width:100%;
+    height:110px;
+    overflow:hidden;}
+.more .good .g_pic img{ width:100%;}
+.more .good .g_t{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:5px 0;
+    background:url(../images/bg_block.png) repeat;
+    display:none;}
+.more .good:hover .g_t{ display:block;}
+.more .good .g_t > p{
+    text-align:center;
+    font-size:12px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;}
+
+.roll{
+	position:fixed;
+	left:160px;
+	z-index:99999;
+	width:69px;
+	height:30px;
+	line-height:80px;
+	margin:0 auto;
+	animation:1s margin ease-in-out infinite alternate;
+	-ms-animation:1s margin ease-in-out infinite alternate;
+	-webkit-animation:1s margin ease-in-out infinite alternate;}
+.roll:hover{ cursor:pointer;}	
+.roll_up{
+	bottom:20px;
+	background:url(../images/arrow.png) no-repeat -65px -44px;
+	animation-name:rollUp;}
+.roll_down{
+	top:0px;
+	background:url(../images/arrow.png) no-repeat -65px -74px;
+	background-color:#595959;
+	animation-name:rollDown;}
+@keyframes rollUp{
+	to{ bottom:40px;}
+}
+@-ms-keyframes rollUp{
+	to{ bottom:40px;}
+}
+@-webkit-keyframes rollUp{
+	to{ bottomp:40px;}
+}
+@keyframes rollDown{
+	to{ top:20px;}
+}
+@-ms-keyframes rollDown{
+	to{ top:20px;}
+}
+@-webkit-keyframes rollDown{
+	to{ top:20px;}
+}
+	
+	
+	
+	
+	

@@ -1,0 +1,364 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;
+	padding:0;
+	border:0;}
+body{
+	font:14px "Microsoft YaHei",Arial,Helvetica,sans-serif;
+	background:#fff;
+	-webkit-text-size-adjust:100%;}
+a{
+	text-decoration:none;}
+a:hover{
+	text-decoration:none;}
+em{
+	font-style:normal;}
+ul,li{
+	list-style:none;}
+img{
+	border:0;
+	vertical-align:middle;}
+table{
+	border-collapse:collapse;
+	border-spacing:0;}
+p{
+	word-wrap:break-word;}
+select:focus,input:focus{
+	outline:none;}
+div,span,p,ul,li,input{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;}
+.fixclear:before,.fixclear:after{
+	content:'';
+    clear:both;
+    height:0;
+    display:table;
+    visibility:hidden;}
+input{ font-family:inherit;}
+b{ display:inline-block; width:0; height:100%; vertical-align:middle;}
+/*-----CSS reset end--------*/
+
+a{
+	transition:0.3s all;
+	-ms-transition:0.3s all;
+	-webkit-transition:0.3s all;}
+
+.head{
+	position:fixed;
+	z-index:9999;
+	top:0;
+	left:0;
+	width:100%;
+	height:76px;
+	border-top:2px solid #FFE537;
+	background:url(../images/base_bg.png) repeat;}
+.h_contain{
+	width:1226px;
+	margin:0 auto;
+	margin-top:30px;}
+.h_contain > div{ letter-spacing:-4px;}
+.h_contain > div > span{
+	display:inline-block;
+	letter-spacing:0;}
+.h_contain > div > span > a{
+	display:block;
+    overflow:hidden;
+	line-height:28px;
+	color:#fff;
+	font-size:16px;
+	padding:0 14px;
+	border-radius:100px;}
+.h_contain > div > span > a:hover{
+	color:#2f2f2d;
+	background:#ffe537;
+	font-weight:bolder;}
+.h_contain .h_left{ float:left;}
+.h_contain .h_left > span{ margin-right:12px;}
+.h_contain .h_right{ float:right;}
+.h_contain .h_right > span{ margin-left:12px;}
+div#logo{
+	float:left;
+	width:201px;
+	height:48px;
+	background:url(../images/logo.png) no-repeat;
+	margin:-17px 20px 0 0;}
+   	
+/*---下拉列表---*/
+#taocan,#help{
+	position:relative;}
+#taocan > span,#help > span{
+	position:absolute;
+	top:44px;
+	left:-20px;
+	padding:10px 0;
+	display:none;
+	width:100px;
+	background:url(../images/base_bg.png) repeat;}
+#taocan > span > a,#help > span > a{
+	display:block;
+	text-align:center;
+	color:#fff;
+	line-height:36px;}
+#taocan > span > a:hover,#help > span > a:hover{
+	background:#ffe537;
+	color:#2f2f2d;
+    letter-spacing:3px;
+    font-weight:bold;}
+#taocan > span{
+	left:-4px;}
+span#taocan > a:before,span#taocan > a:after,span#help > a:after{
+	content:'';
+	position:absolute;
+	display:block;
+	background:url(../images/lc_cion.png) no-repeat;}
+span#taocan > a:before{
+	top:-10px;
+	left:82px;
+	width:29px;
+	height:13px;
+	background-position:-115px -106px;}
+span#taocan > a:after,span#help > a:after{
+	top:12px;
+	right:1px;
+	width:8px;
+	height:4px;
+	background-position:left -147px;}
+
+
+.banner{
+	position:relative;
+	height:888px;}
+.b_box{
+	position:absolute;
+	z-index:9;
+	top:50%;
+	left:50%;
+	width:1100px;
+	height:300px;
+	margin:-150px 0 0 -550px;
+	background:url(../images/base_bg_25.png) repeat;
+	padding:45px 0 0 0;}
+.b_box > p{
+	text-align:center;
+	color:#fff;
+	font-size:50px;
+	font-weight:bold;
+	letter-spacing:5px;
+	text-shadow:0 2px 8px rgba(0,0,0,0.3);}
+.b_box > p > em{ font-style:normal; color:#ffe537;}
+
+.b_search{
+	width:965px;
+	height:60px;
+	margin:26px auto 15px auto;}
+.b_search > span{ float:left;}
+.b_search .b_x{
+	width:160px;
+	font-size:18px;
+	text-align:center;
+	line-height:60px;
+	color:#fff;
+	background:#ffe537;
+	font-weight:bold;
+	text-shadow:0 1px 2px rgba(0,0,0,0.3);}
+.b_search .b_x:hover,.b_search .b_s:hover{ cursor:pointer;}
+.b_search .b_i{
+	width:720px;
+	height:60px;
+	background:#fff;
+	padding:17px 15px;}
+.b_search .b_i input{
+	width:100%;
+	font-size:18px;
+	font-family:inherit;
+	color:#595959;}
+.b_search .b_s{
+	width:85px;
+	height:60px;
+	background-color:#fff;}
+.b_search .b_s > span{
+	display:block;
+	width:32px;
+	height:32px;
+	margin:14px auto auto;
+	background:url(../images/lc_cion.png) right bottom no-repeat;}
+.b_hot{
+	width:965px;
+	margin:0 auto;
+	color:#fff;
+	font-size:16px;
+	letter-spacing:-4px;}
+.b_hot a{
+	color:#fff;
+	letter-spacing:0;
+	text-shadow:0 2px 8px rgba(0,0,0,0.3);
+	vertical-align:0;}
+.b_hot a:hover{ vertical-align:-2px; color:#ffe537;}
+
+.banner .li_box{ height:888px;}/*幻灯片高度*/
+.banner .li_box a{ display:block; height:100%;}
+
+.b_scroll{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-12px;
+	width:24px;
+	height:93px;
+	background:url(../images/Push.png) 0 0 no-repeat;
+	z-index:9;}
+.b_scroll:hover{ cursor:pointer;}
+.b_scroll > div{
+	width:24px;
+	height:36px;
+	margin-top:20px;
+	background:url(../images/Push.png) 0 -93px no-repeat;
+	animation:Scroll 1s ease-in-out infinite alternate;
+	-ms-animation:Scroll 1s ease-in-out infinite alternate;
+	-webkit-animation:Scroll 1s ease-in-out infinite alternate;}
+@keyframes Scroll{
+	to{ margin-top:38px;}
+}
+@-ms-keyframes Scroll{
+	to{ margin-top:38px;}
+}
+@-webkit-keyframes Scroll{
+	to{ margin-top:38px;}
+}	
+
+/*------侧边控件------*/
+.cbl{
+	position:fixed;
+	bottom:200px;
+	right:-100px;
+	z-index:999;
+    transition:0.5s right;
+    -webkit-transition:0.5s right;
+    -moz-transition:0.5s right;
+    -ms-transition:0.5s right;}
+.cbl > div{
+	width:60px;
+	height:60px;
+	margin-bottom:7px;
+	background:url(../images/base_bg.png) repeat;
+	padding-top:11px;}
+.cbl > div:hover{ cursor:pointer;}
+.cbl > div > span{
+	display:block;
+	width:38px;
+	height:38px;
+	margin:0 auto;
+	background:url(../images/lc_cion.png) repeat;}
+.cbl #code,.cbl #yuyue{ position:relative;}
+.cbl #code > div,.cbl #yuyue > div{
+	position:absolute;
+	top:0;
+	left:-157px;
+	width:150px;
+	height:160px;
+	border:1px #ccc solid;
+	display:none;}
+.cbl #code > div{
+    background:url(../images/code.jpg) center 10px no-repeat;
+    background-color:#fff;}
+.cbl #yuyue > div{
+    background:url(../images/yuyue_code.png) center no-repeat;
+    background-color:#fff;}
+.cbl #yuyue span{ background-position:left bottom;}
+.cbl #qq span{ background-position:left -81px;}
+.cbl #code span{ background-position:-38px -81px;}
+.cbl #backtop span{ background-position:-76px -81px;}
+
+/*-----model-----*/
+.mask,.login,.usereg{ position:fixed;}
+.mask{	
+	top:0;
+	left:0;
+	z-index:99999;
+	width:100%;
+	height:100%;
+	background:url(../images/base_bg.png) repeat;}
+/*---登录----*/
+.login,.usereg{
+	left:50%;
+	top:200px;
+	z-index:100000;
+	width:500px;
+	margin-left:-250px;
+	background:#fff;
+	padding:25px;
+	overflow:hidden;
+	outline:5px solid rgba(0,0,0,0.3);}
+.login > p,.usereg > p{
+	line-height:80px;
+	font-size:34px;
+	color:#595959;
+	text-align:center;}
+.login > div > form > span,.login input[type="button"],.usereg > div > form > span,.usereg input[type="button"]{
+	display:block;
+	width:90%;
+	margin:0 auto;
+	padding:15px;
+	border:1px #ccc solid;
+	border-radius:5px;
+	margin-bottom:20px;}
+.usereg > div > form > span{ padding:10px;}
+.usereg > div > form > span > p{
+	color:#595959;
+	margin-bottom:5px;}
+.usereg > div > form > span > p > em{
+	margin-left:15px;}
+.login > div > form > div,.usereg > div > form > div{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:20px;}
+.login > div > form > div input,.usereg > div > form > div input{
+	vertical-align:-2px;
+	margin-right:3px;}
+.login > div > form > div .wj a,.usereg > div > form > div .yz a{
+	float:right;
+	text-decoration:underline;
+	color:#595959;}
+.login > div > form > span > input,.usereg > div > form > span > input{
+	width:100%;
+	font-size:14px;
+	color:#595959;}
+.login input[type="button"],.usereg input[type="button"]{
+	font-size:16px;
+	border-color:#2f2f2d;
+	color:#2f2f2d;
+	background:#ffe537;}
+.login input[type="button"]:hover,.usereg input[type="button"]:hover{
+	cursor:pointer;}
+.login .close,.usereg .close{
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    right:-1px;
+    top: 0;
+    border-radius: 0 0 0 100px;
+    background: url(../images/icon.png) no-repeat -175px -140px;
+    background-color: #2f2f2d;}
+.login .close:hover,.usereg .close:hover{ cursor:pointer;}
+	
+.usereg > div > form > div > span{
+	float:left;
+	display:block;
+	width:250px;
+	margin:0 auto;
+	padding:15px;
+	border:1px #ccc solid;
+	border-radius:5px;
+	margin-bottom:20px;}
+#yanzheng input[name="yanzheng"]{
+	width:100%;}	
+#yanzheng input[name="y_btn"]{
+	float:right;
+	padding:0;
+	line-height:50px;
+	width:135px;}
+ input[name="y_btn"].yz_disabled{
+    background:#CCC;}
+ input[name="y_btn"].yz_disabled:hover{
+    cursor:no-drop;}
+	

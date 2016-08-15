@@ -1,0 +1,119 @@
+
+body{
+	padding-top:76px;
+    background:#f5f5f5;}
+.head{
+	background:#2f2f2d;}
+	
+.info{
+	width: 1226px;
+    margin: 0 auto;
+    /*padding: 20px;*/
+    margin-top: 20px;
+    background: #fff;
+    transition:0.5s box-shadow;
+    -ms-transition:0.5s box-shadow;
+    -webkit-transition:0.5s box-shadow;}
+.info:hover{
+    box-shadow:0 0 20px rgba(0,0,0,0.5);}
+
+.info > span{
+    display:block;
+    float:left;}
+
+.use_info{
+    padding:25px 0 0 30px;
+    color:#595959;}
+.use_info > p{
+    float:left;
+    margin-right:25px;}
+.use_info .p_b{ margin-top:15px;}
+.use_info #use_name{
+    font-size:30px;}
+.use_info a{
+    color:#ccc;}
+	
+.btn_a{
+	display:block;
+	color:#2f2f2d;
+	width:190px;
+	margin-left:25px;
+	line-height:36px;
+	text-align:center;
+	background:#ffe537;
+	border-radius:5px;
+	border:1px #2f2f2d solid;}
+
+/*-------内容部分CSS----------*/
+.content{
+	width:1226px;
+	margin:0 auto;
+	margin-top:20px;
+    min-height:600px;}
+	
+/*-------内容右边----------*/
+.content .con_r{
+	width: 300px;
+    float:right;}
+.list{
+    background:#fff;
+    margin-bottom:25px;
+    padding:25px 30px;
+    transition:0.5s box-shadow;
+    -ms-transition:0.5s box-shadow;
+    -webkit-transition:0.5s box-shadow;}
+.list:hover{
+    box-shadow:0 0 25px rgba(0,0,0,0.2);}
+.list > p{
+    font-size: 18px;
+    color: #2f2f2d;
+    border-bottom: 1px solid #dfdfdf;
+    height: 35px;
+    margin-bottom: 10px;}
+.list > p > em{
+    float:right;
+    font-size:12px;
+    line-height:24px;}
+.list li{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    line-height:24px;}
+.list a{
+    color:#595959;}
+.list a:hover{ color:#ffe537;}
+
+.list1{ border-top:3px solid #A2E6C1;}
+.list2{ border-top:3px solid #FB86AE;}
+.list3{ border-top:3px solid #75DFFF;}
+
+/*-------内容左边----------*/
+.con_l{
+	float:left;
+	width:905px;
+    padding:40px;
+    background:#fff;}
+.con_l > h1{
+    color: #2f2f2d;
+    margin-bottom:20px;}
+.con_l > p{
+    color:#595959;
+    text-align:right;}
+.con_l > p > em{
+    margin-right:15px;} 
+.wrap{}
+.wrap > p{
+    font-size:16px;
+    line-height:1.75;
+    color:#2f2f2d;
+    text-indent:2em;
+    text-align:justify;
+    margin-top:20px;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+b{ display:inline-block; width:0; height:100%; vertical-align:middle;}
+body{
+	padding-top:76px;
+    background:#f5f5f5;
+    overflow-x:hidden;}
+.head{
+	background:#2f2f2d;}
+	
+
+/*-------内容部分CSS----------*/
+.title,.content,.main{
+    width:1226px;
+	margin:0 auto;}
+.title{
+    font-size:24px;
+    line-height:40px;
+    padding-top:20px;
+    color:#595959;}
+.title span{ display:block;}
+.title .t_l{ float:left;}
+.title .t_r{ float:right;}
+.title .t_r span{
+    width:301px;
+    height:20px;
+    background:url(../images/bz_icon.png) 0 0 no-repeat;}
+.title .t_r p{
+    font-size:12px;
+    line-height:20px;}
+.title .t_r p em{
+    display: inline-block;
+    width: 150px;
+    text-align: center;}
+
+.content{
+    position:relative;
+    padding-bottom:66px;
+	margin-top:20px;
+    background:#fff;
+    min-height:600px;}
+.main{
+    margin-top:20px;
+    padding:20px 0;
+    background:#e0e0e0;}
+.main > span{
+    display:block;
+    float:left;
+    color:#595959;
+    font-size:12px;
+    text-align:left;}
+.checkbox{ width:12%; padding-left:25px;}
+.checkbox > input{ vertical-align:-2px;}
+.goods.g_name{ width:30%;}
+.prop.g_pro{ width:20%;}
+.price{ width:10%;}
+.num{ width:10%; text-indent:2em;}
+.sum{ width:10%;}
+.action{ width:8%;}
+span.checkbox{}
+
+.l_good{
+    height:80px;
+    background:#fff4e8;
+    border-bottom:1px solid #e7e7e7;
+    margin-bottom:5px;}
+.l_good > div{
+    float:left;
+    margin-top:15px;}
+div.checkbox > input{ vertical-align:15px;}
+div.checkbox > span{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    margin-left:10px;
+    border:1px #dfdfdf solid;}
+div.checkbox > span > img{
+    width:100%;}
+div.goods,div.prop{ height:50px;}
+div.goods > p,div.prop > p{
+    display:inline-block;
+    width:350px;
+    vertical-align:middle;}
+div.prop > p{ width:230px;}
+div.goods > p > a,div.prop > p{
+    font-size:12px;
+    color:#2f2f2d;}
+div.goods > p > a:hover,div.action > a:hover{ color:#f60;}
+div.price,div.sum,div.action{
+    height:100%;
+    margin-top:0;
+    line-height:80px;
+    color:#2f2f2d;
+    font-size:12px;}
+div.action > a{ color:#2F2F2D;}
+div.num{ margin-top:25px; text-indent:0;}
+div.num > span{
+    display:block;
+    float:left;
+    height:30px;
+    border:1px #999 solid;
+    background:#fff;
+    margin-right:-1px;}
+.g_num{ width:50px; overflow:hidden; padding:5px 2px;}
+.g_num > input{ width:100%; text-align:center;}
+.add,.minus{ width:15px; text-align:center; line-height:30px;}
+.add:hover,.minus:hover{ cursor:pointer;}
+
+.veiw{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:56px;
+    margin-top:20px;
+    background:#e0e0e0;}
+.veiw > span{
+    display:block;
+    float:left;
+    margin-right:20px;
+    line-height:56px;}
+.veiw > span > a{
+    line-height:56px;
+    color:#2f2f2d;}
+.veiw .v_pri,.veiw .v_btn{ float:right;}
+.veiw .v_pri em{
+    font-size:20px;
+    margin-left:5px;}
+.veiw .v_btn{ margin-right:0; }
+.veiw .v_btn a{
+    display:block;
+    width:120px;
+    text-align:center;
+    background:#ffe537;
+    line-height:56px;}
+.veiw .v_btn a:hover{
+    background:#595959;
+    color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

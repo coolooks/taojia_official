@@ -1,0 +1,120 @@
+
+body{
+	padding-top:76px;
+    background:#f5f5f5;}
+.head{
+	background:#2f2f2d;}
+	
+.info{
+	width: 1226px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;}
+.info > span{
+    display:block;
+    float:left;}
+
+.use_info{
+    padding:25px 0 0 30px;
+    color:#595959;}
+.use_info > p{
+    float:left;
+    margin-right:25px;}
+.use_info .p_b{ margin-top:15px;}
+.use_info #use_name{
+    font-size:30px;}
+.use_info a{
+    color:#ccc;}
+	
+.btn_a{
+	display:block;
+	color:#2f2f2d;
+	width:190px;
+	margin-left:25px;
+	line-height:36px;
+	text-align:center;
+	background:#ffe537;
+	border-radius:5px;
+	border:1px #2f2f2d solid;}
+
+/*-------内容部分CSS----------*/
+.content{
+	width:1226px;
+	margin:0 auto;
+	margin-top:20px;
+    min-height:600px;}
+	
+/*-------内容左边----------*/
+.content .con_l{
+	width: 240px;
+    background-color: #fff;
+    height: auto;
+    float: left;
+    padding: 30px;}
+.list > p{
+    font-size: 18px;
+    color: #2f2f2d;
+    border-bottom: 1px solid #dfdfdf;
+    height: 50px;
+    line-height: 40px;
+    margin-bottom: 10px;}
+.list > span{
+    display:block;
+	height: 40px;
+    line-height: 39px;
+    color: #666666;}
+.list a{
+    color:#595959;}
+.on{}
+.on > a{ color:#ffe537;}
+
+    
+
+/*-------内容右边----------*/
+.con_r{
+	float:right;
+	width:965px;
+    padding:30px;
+    background:#fff;}
+ .con_r > p{
+    font-size: 24px;
+    color: #595959;
+    font-weight: normal;
+    margin-bottom: 30px;}
+
+.order_box{ width:100%; border:1px #999 solid; margin-bottom:15px;}
+.order_box .order_list{ padding:10px 0 10px;}
+.order_box .o_info > div{ }
+.order_box .order_info{ float:left; margin:20px 0 20px 30px; }
+.order_box .order_info *{ color:#595959; }
+.order_box .order_info p{ float:left; padding-right:10px; border-right:1px #dfdfdf solid; line-height:14px; margin-left:10px;}
+.order_box .order_info p.time{ margin-left:0;}
+.order_box .price{ float:right; line-height:45px; color:#2f2f2d;}
+.order_box .price strong{ font-size:26px; font-weight:normal; margin-left:5px;}
+.order_box .flag{ float:right; width:20px; height:20px; background:url(../images/lc_cion.png) no-repeat -16px -131px; margin:13px 15px 0 30px;}
+.order_box .flag:hover{ cursor:pointer;}
+.order_box .order_wrap{ display:none;}
+.order_box .order_li{ padding-top:20px; border-top:1px #ccc solid; border-collapse:separate; }
+.order_li .g-li .g-li-box{ width:70px; height:70px; line-height:70px; overflow:hidden;}
+.order_li .g-li{ position:relative; height:80px; padding:10px 0 0 120px;}
+.order_li .g-li *{ color:#595959;}
+.order_li .g-li .g-li-box{ position:absolute; left:20px; top:0; }
+
+.order_li .g-li .g-li-box img{ width:80px; }
+.order_li .g-li p{ line-height:20px;}
+.order_li .g-li .goods_name a:hover{ color:#f60;}
+.order_box .order_li .o-action a{
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#757575;
+	border:1px #999 solid;
+	margin-bottom:15px;
+	background:#fff;}
+.order_box .order_li .o-action a:hover{ background:#999; color:#fff;}
+.order_box .order_li td{ border-bottom:0;}
+.user_main{ width:909px;}
+    
